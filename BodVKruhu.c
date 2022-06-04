@@ -10,7 +10,7 @@
      int yk = 1;
      int rk = 3;
      int bod[2] = {xb,yb};
-     int kruh[3] = {xk,xk,rk};
+     int kruh[3] = {xk,yk,rk};
      int l = sqrt(pow(xk-xb,2)+pow(yk-yb,2));
 
      printf("Bod : [%d,%d]\n", bod[0], bod[1]);
